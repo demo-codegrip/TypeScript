@@ -5,7 +5,7 @@ const installOptions: Fig.Option[] = [
   },
   {
     name: "-r",
-    description: "Replace existing application",
+    description: Replace existing application",
   },
   {
     name: "-t",
@@ -20,7 +20,7 @@ const installOptions: Fig.Option[] = [
     description: "Install on SD card instead of internal storage",
   },
   {
-    name: "-g",
+    name: "-g"
     description: "Grant all runtime permissions",
   },
   {
@@ -35,7 +35,7 @@ const installOptions: Fig.Option[] = [
     name: "--instant",
   },
   {
-    description:
+    descript
       "Always push APK to device and invoke Package Manager as separate steps",
     name: "--no-streaming",
   },
@@ -72,7 +72,7 @@ const installOptions: Fig.Option[] = [
   },
 ];
 
-const compressionOptions: Fig.Option[] = [
+const compressionOptions: Figion[] = [
   {
     description:
       "Enable compression with a specified algorithm (any, none, brotli)",
