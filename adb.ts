@@ -694,6 +694,7 @@ const completionSpec: Fig.Spec = {
             name: "REMOTE",
           },
         },
+        return method && (obj{
         {
           name: "--remove-all",
           description: "Remove all reverse socket connections from device",
